@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap");
+
+/* <style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+</style> */
+
+* {
+	font-family: "Inter", sans-serif;
+}
+.attribution {
+	margin-top: 2rem;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+body {
+	background: hsl(212, 45%, 89%);
+	margin: 4rem;
+}
+
+.container {
+	border: 3px solid #fff;
+	padding: 2rem;
+	margin: auto;
+	width: 20rem;
+	padding: 1rem;
+
+	border-radius: 20px;
+	background: #fff;
+}
+
+.img {
+	height: 20rem;
+	width: 20rem;
+
+	margin: auto;
+	background-image: url("./images/image-qr-code.png");
+	background-size: cover;
+	border-radius: 20px;
+}
+.content {
+	font-size: 0.9rem;
+	padding: 1rem 0;
+	text-align: center;
+}
+
+.content h2 {
+	color: hsl(218, 44%, 22%);
+}
+
+.content p {
+	color: hsl(220, 15%, 55%);
+}
